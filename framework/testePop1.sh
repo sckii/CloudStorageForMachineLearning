@@ -1,6 +1,7 @@
 # "SVMR" "SVML" "SVMS" "RF" "KNN" "DCT" "LR" "HV" "SV"
 #!/bin/bash
 pop="Pop1"
+mkdir $"results/"${pop}
 declare -a classifiers=("ONLINE" "SVMR" "SVML" "SVMS" "RF" "KNN" "DCT" "LR" "HV" "SV")
 window="4"
 stepstotake=4
