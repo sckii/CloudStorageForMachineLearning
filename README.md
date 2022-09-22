@@ -22,7 +22,7 @@ Na pasta framework crie o arquivo de execução, exemplo: "testePop1.sh" para fa
     for i in "${classifiers[@]}"
     do
         echo "Gerando saída em:" $folder"/"$i".txt"
-        python framework.py $pop $i $window $stepstotake >> $folder"/"$i".txt"
+        python3 framework.py $pop $i $window $stepstotake >> $folder"/"$i".txt"
     done
 ```
 ## Comando de execução
