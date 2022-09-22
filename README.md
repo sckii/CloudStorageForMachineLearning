@@ -13,6 +13,7 @@ Na pasta framework crie o arquivo de execução, exemplo: "testePop1.sh" para fa
 ``` 
     #Exmplo do condigo do testePop1.sh
     pop="Pop1"
+    mkdir $"results/"${pop}
     declare -a classifiers=("ONLINE" "SVMR" "SVML" "SVMS" "RF" "KNN" "DCT" "LR" "HV" "SV")
     window="4"
     stepstotake=4
