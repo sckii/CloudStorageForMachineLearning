@@ -1,4 +1,0 @@
-                    RF
-cost ml       0.702905
-cost all hot  0.736905
-cost opt      0.600405
