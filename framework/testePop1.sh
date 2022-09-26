@@ -11,5 +11,5 @@ mkdir $folder
 for i in "${classifiers[@]}"
 do
     echo "Gerando saída em:" $folder"/"$i".txt"
-    python framework.py $pop $i $window $stepstotake >> $folder"/"$i".txt"
+    python3 framework.py $pop $i $window $stepstotake >> $folder"/"$i".txt"
 done
